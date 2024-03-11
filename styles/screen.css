@@ -1,0 +1,89 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: #EAE8FF;
+    background: #2D3142;
+    padding: 0 40px;
+    text-align: center;
+}
+
+nav {
+    margin: 40px auto 0 auto;
+    width: 250px;
+    border-radius: 50px;
+    background: #212431;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: #EAE8FF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 8em;
+    letter-spacing: -2px;
+}
+
+h1 strong {
+    background: rgb(123, 34, 195);
+    background: linear-gradient(45deg, rgba(123,34,195,1) 0%, rgb(255, 207, 103) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img.about {
+    opacity: 0.5;
+}
+
+a{
+    color:#EAE8FF;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    
+}
+
+/* Hover effect */
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+a:visited{
+    color: #a198ff;
+    text-decoration: underline;
+}
+.date{
+    font-size: 100px;
+}
+.date strong
+{
+    background: linear-gradient(45deg, rgba(123,34,195,1) 0%, rgb(255, 207, 103) 100%); /* Your gradient colors */
+    -webkit-background-clip: text; 
+    color: transparent;
+    background-clip: text;
+}
+article
+{
+    text-align: left;
+    font-size : 20px; 
+    padding: 20px;
+    margin: 10px;
+}
+p{
+    font-size : 20px; 
+    padding: 20px;
+    margin: 10px;
+}
